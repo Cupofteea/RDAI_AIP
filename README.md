@@ -145,7 +145,7 @@ Deployment of nlp endpoints are done using dockers
 
 ### Step A: Build docker images
 
-1. Make sure you are in the `nlp_reports` directory for this project
+1. Make sure you are in the same directory as the dockerfile for this project
 2. Build image for labels (via MODEL): `sudo docker build -t labels_model -f endpoint_model/Dockerfile .`
 
 ### Step B: Transfer of files
