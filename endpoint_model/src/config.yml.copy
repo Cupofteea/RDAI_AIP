@@ -1,0 +1,10 @@
+aws_creds:
+  access_key_id: ""
+  secret_access_key: ""
+
+aws_models:
+  llm_ner_model: ""
+  llm_classifyTA_model: "" 
+  llm_re_model: ""
+  llm_summary_model: ""
+  region: ""

@@ -1,0 +1,1010 @@
+{
+  'title': 'Singtel, Singapore’s largest mobile carrier, was breached by Chinese state-sponsored hackers this summer as part of a broader campaign against telecommunications companies and other critical infrastructure operators around the world, according to two people familiar with the matter.\n\nThe previously undisclosed breach was discovered in June, and investigators believe it was pulled off by a hacking group known as Volt Typhoon, according to the two people, who asked not to be identified to discuss a confidential investigation.\n\nOfficials in the United States, Australia, Canada, Britain and New Zealand – the “Five Eyes” intelligence-sharing alliance – warned earlier in 2024 that Volt Typhoon was embedding itself inside compromised IT networks to give China the ability to conduct disruptive cyber attacks in the event of a military conflict with the West.\n\nThe breach of Singtel, a carrier with operations throughout South-east Asia and Australia, was seen as a test run by China for further hacks against US telecommunications companies, and information from the attack has provided clues about the expanding scope of suspected Chinese attacks against critical infrastructure abroad, including in the US, the people said.\n\nIn a joint statement on Nov 5, the Cyber Security Agency of Singapore (CSA) and Infocomm Media Development Authority (IMDA) said they understood from Singtel that no service was affected, and no data loss was reported from the incident.\n\nThey added that in this case, early detection and mitigation measures were in place.\n\n“Based on current investigations, the threat has been dealt with and the overall telecommunications infrastructure remains secure and unaffected. CSA and IMDA will continue to work with organisations, especially key service providers including Singtel to strengthen the security and resilience of our digital infrastructure,” they said.Singtel on Nov 5 said “there was a malware detected in June which was subsequently dealt with and reported to relevant authorities”, but added that the telco cannot confirm or ascertain if that was the exact same event reported by Bloomberg.\n\n“We do not comment on speculation. Singtel conducts regular malware sweeps as part of its cyber posture,” it noted.\n\nSpokesperson Liu Pengyu for the Chinese Embassy in Washington said he was not aware of the specifics as relayed by Bloomberg, but that in general, China firmly opposes and combats cyber attacks and cyber theft.\n\nThe US is currently battling its own suspected Chinese attacks of political campaigns and telecommunications companies. Officials have described the telecom breaches as one of the most damaging campaigns on record by suspected Chinese hackers and one that they are still seeking to fully understand and contain. \n\nIn the US telecommunications attacks, which investigators have attributed to another Chinese group called Salt Typhoon, AT&T Inc and Verizon Communications Inc were among those breached, and the hackers potentially accessed systems the federal government uses for court-authorised network wiretapping requests, the Wall Street Journal reported in early October.\n\nUS intelligence officials think the Chinese hacking group that Microsoft Corp dubbed Salt Typhoon may have been inside US telecommunications companies for months and found a route into an access point for legally authorised wiretapping, according to a person familiar with their views.\n\nAT&T declined to comment. Verizon did not respond to a request for comment.\n\nThrough those intrusions, the hackers are believed to have targeted the phones of former president and Republican presidential candidate Donald Trump, his running mate J.D. Vance and Trump family members, as well as members of Vice-President Kamala Harris’ campaign staff and others, The New York Times has reported.\n\nIn the case of the alleged Singtel breach, one of the people familiar with that incident said the attack relied on a tool known as a web shell. \n\nIn August, researchers at Lumen Technologies Inc said in a blog post they assessed with “moderate confidence” that Volt Typhoon had used such a web shell.\n\nA sample of the malware was first uploaded to VirusTotal, a popular site for security experts to research malicious code, on June 7 by an unidentified entity in Singapore, according to Lumen researchers.The web shell allowed hackers to intercept and gather credentials to gain access to a customer’s network disguised as a bona fide user, they said. The hackers then breached four US firms, including internet service providers, and another in India, according to Lumen researchers.\n\nGeneral Timothy Haugh, director of the National Security Agency (NSA), said in early October that the investigations into the latest telecommunications breaches were at an early stage.\n\nLater in October, the FBI and the Cybersecurity and Infrastructure Security Agency (Cisa) said they had identified specific malicious activity by actors affiliated with the Chinese government and immediately notified affected companies and “rendered technical assistance”.\n\nA spokesperson for the National Security Council last week referred to the “ongoing investigation and mitigation efforts”, but directed further questions to the FBI and Cisa. \n\nSingtel uncovered the breach of its network after detecting suspicious data traffic in a core back-end router and finding what it believed was sophisticated, and possibly state-sponsored, malware on it, according to the other person familiar with the investigation.\n\nThe malware was in “listening” mode and didn’t appear to have been activated for espionage or any other purpose, the person said, adding that it reinforced a suspicion that the attack was either a test run of a new hacking capability or that its purpose was to create a strategic access point for future attacks.\n\nThere is evidence that Salt Typhoon reached the US at least as early as spring 2024, and possibly long before, and investigators tracking the group think it has infiltrated other telecommunications companies throughout Asia, including in Indonesia, Nepal, the Philippines, Thailand and Vietnam, according to two people familiar with those efforts.\n\nThe NSA has warned since 2022 that telecommunications infrastructure was vulnerable to Chinese hacking. Volt Typhoon has been active since at least mid-2020, having attacked sensitive networks in Guam and elsewhere in the US with a goal of burrowing into critical infrastructure and staying undetected for as long as possible. \n\nThe hacks by both Chinese Typhoon groups have alarmed Western officials and raised concerns about the number and severity of back doors – a way to get around security tools and gain high-level access to a computer system – that China has placed inside critical IT systems. Those entry points could be used to conduct espionage or prepare the battlespace for use in a potential military conflict with the West.Chinese hackers have long been accused of conducting espionage attacks against the US – including, most notably, the theft of security clearance applications for tens of millions of US government workers held by the Office of Personnel Management.\n\nBut officials say the latest hacks go a step further and in some cases suggest China may be amassing capabilities to disrupt or degrade critical services in the US and abroad.\n\nRetired general Paul Nakasone, who led the NSA for nearly six years until February, told reporters in October that the latest telecommunications hacks by Salt Typhoon were distinguished by their scale, and that the two Chinese groups represent a tremendous challenge for the government. “I am not pleased in terms of where we’re at with either of the Typhoons,” he said. BLOOMBERG',
+  'content': '',
+  'translated_title': None,
+  'translated_content': None,
+  'nlp': {
+    'report_classifier': [
+      'APT',
+      'CYBER ESPIONAGE',
+      'GEOPOL',
+      'POLITICAL MOTIVATION',
+      'TARGETED IT'
+    ],
+    'spacyNER': [
+      {
+        'start_char': 0,
+        'end_char': 7,
+        'text': 'Singtel',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 0
+      },
+      {
+        'start_char': 9,
+        'end_char': 18,
+        'text': 'Singapore',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 0
+      },
+      {
+        'start_char': 143,
+        'end_char': 161,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 0
+      },
+      {
+        'start_char': 182,
+        'end_char': 205,
+        'text': 'critical infrastructure',
+        'label': 'V_SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 0
+      },
+      {
+        'start_char': 130,
+        'end_char': 142,
+        'text': 'Volt Typhoon',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 1
+      },
+      {
+        'start_char': 17,
+        'end_char': 30,
+        'text': 'United States',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 2
+      },
+      {
+        'start_char': 32,
+        'end_char': 41,
+        'text': 'Australia',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 2
+      },
+      {
+        'start_char': 43,
+        'end_char': 49,
+        'text': 'Canada',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 2
+      },
+      {
+        'start_char': 63,
+        'end_char': 74,
+        'text': 'New Zealand',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 2
+      },
+      {
+        'start_char': 153,
+        'end_char': 165,
+        'text': 'Volt Typhoon',
+        'label': 'C_MALWARE',
+        'pretty_label': 'Capabilities: Malware',
+        'occurrence': 0,
+        'tag_index': 2
+      },
+      {
+        'start_char': 226,
+        'end_char': 231,
+        'text': 'China',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 2
+      },
+      {
+        'start_char': 14,
+        'end_char': 21,
+        'text': 'Singtel',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 3
+      },
+      {
+        'start_char': 60,
+        'end_char': 75,
+        'text': 'South-east Asia',
+        'label': 'V_REGION',
+        'pretty_label': 'Victim: Region',
+        'occurrence': 0,
+        'tag_index': 3
+      },
+      {
+        'start_char': 80,
+        'end_char': 89,
+        'text': 'Australia',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 3
+      },
+      {
+        'start_char': 117,
+        'end_char': 122,
+        'text': 'China',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 3
+      },
+      {
+        'start_char': 152,
+        'end_char': 170,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 3
+      },
+      {
+        'start_char': 60,
+        'end_char': 69,
+        'text': 'Singapore',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 4
+      },
+      {
+        'start_char': 80,
+        'end_char': 116,
+        'text': 'Infocomm Media Development Authority',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 4
+      },
+      {
+        'start_char': 150,
+        'end_char': 157,
+        'text': 'Singtel',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 4
+      },
+      {
+        'start_char': 81,
+        'end_char': 99,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 6
+      },
+      {
+        'start_char': 244,
+        'end_char': 251,
+        'text': 'Singtel',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 6
+      },
+      {
+        'start_char': 331,
+        'end_char': 343,
+        'text': 'said.Singtel',
+        'label': 'INDICATOR',
+        'pretty_label': 'Infra: Domain Name',
+        'occurrence': 0,
+        'tag_index': 6
+      },
+      {
+        'start_char': 371,
+        'end_char': 378,
+        'text': 'malware',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Resource Development - Develop Capabilities (T1587)',
+        'occurrence': 0,
+        'tag_index': 6
+      },
+      {
+        'start_char': 35,
+        'end_char': 42,
+        'text': 'Singtel',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 7
+      },
+      {
+        'start_char': 60,
+        'end_char': 67,
+        'text': 'malware',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Resource Development - Develop Capabilities (T1587)',
+        'occurrence': 0,
+        'tag_index': 7
+      },
+      {
+        'start_char': 147,
+        'end_char': 152,
+        'text': 'China',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 8
+      },
+      {
+        'start_char': 66,
+        'end_char': 75,
+        'text': 'political',
+        'label': 'V_SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 9
+      },
+      {
+        'start_char': 90,
+        'end_char': 108,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 9
+      },
+      {
+        'start_char': 149,
+        'end_char': 156,
+        'text': 'telecom',
+        'label': 'V_SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 9
+      },
+      {
+        'start_char': 10,
+        'end_char': 28,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 10
+      },
+      {
+        'start_char': 106,
+        'end_char': 118,
+        'text': 'Salt Typhoon',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 10
+      },
+      {
+        'start_char': 120,
+        'end_char': 128,
+        'text': 'AT&T Inc',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 10
+      },
+      {
+        'start_char': 141,
+        'end_char': 155,
+        'text': 'Communications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 10
+      },
+      {
+        'start_char': 244,
+        'end_char': 254,
+        'text': 'government',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 10
+      },
+      {
+        'start_char': 85,
+        'end_char': 97,
+        'text': 'Salt Typhoon',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 11
+      },
+      {
+        'start_char': 122,
+        'end_char': 140,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 11
+      },
+      {
+        'start_char': 0,
+        'end_char': 4,
+        'text': 'AT&T',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 12
+      },
+      {
+        'start_char': 26,
+        'end_char': 33,
+        'text': 'Verizon',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 12
+      },
+      {
+        'start_char': 227,
+        'end_char': 271,
+        'text': 'Vice-President Kamala Harris’ campaign staff',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 13
+      },
+      {
+        'start_char': 27,
+        'end_char': 34,
+        'text': 'Singtel',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 14
+      },
+      {
+        'start_char': 117,
+        'end_char': 121,
+        'text': 'tool',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Resource Development - Obtain Capabilities (T1588)',
+        'occurrence': 0,
+        'tag_index': 14
+      },
+      {
+        'start_char': 133,
+        'end_char': 142,
+        'text': 'web shell',
+        'label': 'C_TOOL',
+        'pretty_label': 'Capabilities: Tool',
+        'occurrence': 0,
+        'tag_index': 14
+      },
+      {
+        'start_char': 115,
+        'end_char': 127,
+        'text': 'Volt Typhoon',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 15
+      },
+      {
+        'start_char': 144,
+        'end_char': 153,
+        'text': 'web shell',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Persistence - Server Software Component (T1505)',
+        'occurrence': 0,
+        'tag_index': 15
+      },
+      {
+        'start_char': 16,
+        'end_char': 23,
+        'text': 'malware',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Resource Development - Develop Capabilities (T1587)',
+        'occurrence': 0,
+        'tag_index': 16
+      },
+      {
+        'start_char': 161,
+        'end_char': 170,
+        'text': 'Singapore',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 16
+      },
+      {
+        'start_char': 191,
+        'end_char': 206,
+        'text': 'researchers.The',
+        'label': 'INDICATOR',
+        'pretty_label': 'Infra: Domain Name',
+        'occurrence': 0,
+        'tag_index': 16
+      },
+      {
+        'start_char': 207,
+        'end_char': 216,
+        'text': 'web shell',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Persistence - Server Software Component (T1505)',
+        'occurrence': 0,
+        'tag_index': 16
+      },
+      {
+        'start_char': 257,
+        'end_char': 268,
+        'text': 'credentials',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Reconnaissance - Gather Victim Identity Information (T1589)',
+        'occurrence': 0,
+        'tag_index': 16
+      },
+      {
+        'start_char': 401,
+        'end_char': 427,
+        'text': 'internet service providers',
+        'label': 'V_SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 16
+      },
+      {
+        'start_char': 444,
+        'end_char': 449,
+        'text': 'India',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 16
+      },
+      {
+        'start_char': 133,
+        'end_char': 151,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 17
+      },
+      {
+        'start_char': 181,
+        'end_char': 191,
+        'text': 'government',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 18
+      },
+      {
+        'start_char': 0,
+        'end_char': 7,
+        'text': 'Singtel',
+        'label': 'V_NAME',
+        'pretty_label': 'Victim: Name',
+        'occurrence': 0,
+        'tag_index': 20
+      },
+      {
+        'start_char': 188,
+        'end_char': 195,
+        'text': 'malware',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Resource Development - Develop Capabilities (T1587)',
+        'occurrence': 0,
+        'tag_index': 20
+      },
+      {
+        'start_char': 4,
+        'end_char': 11,
+        'text': 'malware',
+        'label': 'MITRE_TTP',
+        'pretty_label': 'Capabilities: Resource Development - Develop Capabilities (T1587)',
+        'occurrence': 0,
+        'tag_index': 21
+      },
+      {
+        'start_char': 23,
+        'end_char': 35,
+        'text': 'Salt Typhoon',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 179,
+        'end_char': 197,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 219,
+        'end_char': 223,
+        'text': 'Asia',
+        'label': 'REGION',
+        'pretty_label': 'Victim: Region',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 238,
+        'end_char': 247,
+        'text': 'Indonesia',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 249,
+        'end_char': 254,
+        'text': 'Nepal',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 260,
+        'end_char': 271,
+        'text': 'Philippines',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 273,
+        'end_char': 281,
+        'text': 'Thailand',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 286,
+        'end_char': 293,
+        'text': 'Vietnam',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 22
+      },
+      {
+        'start_char': 35,
+        'end_char': 53,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 23
+      },
+      {
+        'start_char': 104,
+        'end_char': 116,
+        'text': 'Volt Typhoon',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 23
+      },
+      {
+        'start_char': 26,
+        'end_char': 40,
+        'text': 'Typhoon groups',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 24
+      },
+      {
+        'start_char': 130,
+        'end_char': 135,
+        'text': 'doors',
+        'label': 'C_MALWARETYPE',
+        'pretty_label': 'Capabilities: Malware Type',
+        'occurrence': 0,
+        'tag_index': 24
+      },
+      {
+        'start_char': 228,
+        'end_char': 233,
+        'text': 'China',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 24
+      },
+      {
+        'start_char': 404,
+        'end_char': 416,
+        'text': 'West.Chinese',
+        'label': 'INDICATOR',
+        'pretty_label': 'Infra: Domain Name',
+        'occurrence': 0,
+        'tag_index': 24
+      },
+      {
+        'start_char': 594,
+        'end_char': 604,
+        'text': 'government',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 24
+      },
+      {
+        'start_char': 79,
+        'end_char': 84,
+        'text': 'China',
+        'label': 'COUNTRY',
+        'pretty_label': 'Victim: Country',
+        'occurrence': 0,
+        'tag_index': 25
+      },
+      {
+        'start_char': 126,
+        'end_char': 144,
+        'text': 'telecommunications',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 26
+      },
+      {
+        'start_char': 154,
+        'end_char': 166,
+        'text': 'Salt Typhoon',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 26
+      },
+      {
+        'start_char': 275,
+        'end_char': 285,
+        'text': 'government',
+        'label': 'SECTOR',
+        'pretty_label': 'Victim: Sector',
+        'occurrence': 0,
+        'tag_index': 26
+      },
+      {
+        'start_char': 351,
+        'end_char': 359,
+        'text': 'Typhoons',
+        'label': 'A_ACTOR',
+        'pretty_label': 'Adversary: Actor',
+        'occurrence': 0,
+        'tag_index': 26
+      }
+    ],
+    'validatedNER': {
+      'entities': [
+        {
+          'label': 'V_NAME',
+          'pretty_label': 'Victim: Name',
+          'text': 'Singtel'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Singapore'
+        },
+        {
+          'label': 'V_SECTOR',
+          'pretty_label': 'Victim: Sector',
+          'text': 'telecommunications'
+        },
+        {
+          'label': 'A_ACTOR',
+          'pretty_label': 'Adversary: Actor',
+          'text': 'Volt Typhoon'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'United States'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Australia'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Canada'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Britain'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'New Zealand'
+        },
+        {
+          'label': 'A_ACTOR',
+          'pretty_label': 'Adversary: Actor',
+          'text': 'Salt Typhoon'
+        },
+        {
+          'label': 'V_NAME',
+          'pretty_label': 'Victim: Name',
+          'text': 'AT&T Inc'
+        },
+        {
+          'label': 'V_NAME',
+          'pretty_label': 'Victim: Name',
+          'text': 'Verizon Communications Inc'
+        },
+        {
+          'label': 'V_NAME',
+          'pretty_label': 'Victim: Name',
+          'text': 'Microsoft Corp'
+        },
+        {
+          'label': 'C_TOOL',
+          'pretty_label': 'Capabilities: Tool',
+          'text': 'web shell'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Indonesia'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Nepal'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Philippines'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Thailand'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'Vietnam'
+        },
+        {
+          'label': 'V_SECTOR',
+          'pretty_label': 'Victim: Sector',
+          'text': 'critical infrastructure'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'China'
+        },
+        {
+          'label': 'REGION',
+          'pretty_label': 'Victim: Region',
+          'text': 'South-east Asia'
+        },
+        {
+          'label': 'V_NAME',
+          'pretty_label': 'Victim: Name',
+          'text': 'Infocomm Media Development Authority'
+        },
+        {
+          'label': 'V_SECTOR',
+          'pretty_label': 'Victim: Sector',
+          'text': 'political'
+        },
+        {
+          'label': 'V_SECTOR',
+          'pretty_label': 'Victim: Sector',
+          'text': 'Communications'
+        },
+        {
+          'label': 'V_SECTOR',
+          'pretty_label': 'Victim: Sector',
+          'text': 'government'
+        },
+        {
+          'label': 'V_NAME',
+          'pretty_label': 'Victim: Name',
+          'text': "Vice-President Kamala Harris' campaign staff"
+        },
+        {
+          'label': 'V_SECTOR',
+          'pretty_label': 'Victim: Sector',
+          'text': 'internet service providers'
+        },
+        {
+          'label': 'COUNTRY',
+          'pretty_label': 'Victim: Country',
+          'text': 'India'
+        },
+        {
+          'label': 'A_ACTOR',
+          'pretty_label': 'Adversary: Actor',
+          'text': 'Typhoon groups'
+        },
+        {
+          'label': 'A_ACTOR',
+          'pretty_label': 'Adversary: Actor',
+          'text': 'Typhoons'
+        },
+        {
+          'label': 'MITRE_TTP',
+          'pretty_label': 'Capabilities: Resource Development - Develop Capabilities (T1587)',
+          'text': 'malware'
+        },
+        {
+          'label': 'MITRE_TTP',
+          'pretty_label': 'Capabilities: Resource Development - Obtain Capabilities (T1588)',
+          'text': 'tool'
+        },
+        {
+          'label': 'MITRE_TTP',
+          'pretty_label': 'Capabilities: Persistence - Server Software Component (T1505)',
+          'text': 'web shell'
+        },
+        {
+          'label': 'MITRE_TTP',
+          'pretty_label': 'Capabilities: Reconnaissance - Gather Victim Identity Information (T1589)',
+          'text': 'credentials'
+        }
+      ],
+      'validation_model': 'us.anthropic.claude-3-5-sonnet-20241022-v2:0',
+      'validation_tokens_used': {
+        'input_tokens': 8865,
+        'output_tokens': 2298,
+        'total_tokens': 11163
+      },
+      'classifyTA_model': 'us.anthropic.claude-3-5-sonnet-20241022-v2:0',
+      'classifyTA_tokens_used': {
+        'input_tokens': 0,
+        'output_tokens': 0,
+        'total_tokens': 0
+      }
+    },
+    'llm_re': {
+      'relations': [
+        {
+          'source': 'Volt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'Singtel',
+          'target_pretty_label': 'Victim: Name',
+          'relationship': 'intrusion-set targets identity'
+        },
+        {
+          'source': 'Volt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'telecommunications',
+          'target_pretty_label': 'Victim: Sector',
+          'relationship': 'intrusion-set targets identity'
+        },
+        {
+          'source': 'Volt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'critical infrastructure',
+          'target_pretty_label': 'Victim: Sector',
+          'relationship': 'intrusion-set targets identity'
+        },
+        {
+          'source': 'Volt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'China',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set originates-from location'
+        },
+        {
+          'source': 'Volt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'web shell',
+          'target_pretty_label': 'Capabilities: Tool',
+          'relationship': 'intrusion-set uses tool'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'AT&T Inc',
+          'target_pretty_label': 'Victim: Name',
+          'relationship': 'intrusion-set targets identity'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'Verizon Communications Inc',
+          'target_pretty_label': 'Victim: Name',
+          'relationship': 'intrusion-set targets identity'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'China',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set originates-from location'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'United States',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set targets location'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'Indonesia',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set targets location'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'Nepal',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set targets location'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'Philippines',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set targets location'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'Thailand',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set targets location'
+        },
+        {
+          'source': 'Salt Typhoon',
+          'source_pretty_label': 'Adversary: Actor',
+          'target': 'Vietnam',
+          'target_pretty_label': 'Victim: Country',
+          'relationship': 'intrusion-set targets location'
+        }
+      ],
+      'model': 'us.anthropic.claude-3-5-sonnet-20241022-v2:0',
+      'tokens_used': {
+        'input_tokens': 6747,
+        'output_tokens': 1007,
+        'total_tokens': 7754
+      }
+    },
+    'llm_summariser': {
+      'model': 'us.anthropic.claude-3-5-sonnet-20241022-v2:0',
+      'summary': 'In June 2023, it was observed that Chinese state-sponsored groups Volt Typhoon and Salt Typhoon had breached Singtel and multiple telecommunications companies across Asia and the US, including AT&T and Verizon. The adversary was assessed to have used web shell malware and malware in listening mode to embed themselves in compromised IT networks, intercept credentials, and create backdoors for potential future disruptive attacks.',
+      'finish_reason': 'end_turn',
+      'tokens_used': {
+        'input_tokens': 6003,
+        'output_tokens': 339,
+        'total_tokens': 6342
+      }
+    }
+  }
+}
