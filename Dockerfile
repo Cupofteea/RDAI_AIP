@@ -2,9 +2,6 @@ FROM python:3.9
 
 COPY nlp_reports/endpoint_model/src /opt/endpoint_model
 
-# Copy the helper files
-# COPY KaemonUtils/KaemonUtils /opt/site-packages/KaemonUtils
-
 # install requirements
 WORKDIR /opt
 RUN pip install --no-cache-dir -r endpoint_model/requirements.txt && \
